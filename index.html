@@ -1,0 +1,421 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>Vũ Thùy Linh — Selected Work</title>
+
+  <meta
+    name="description"
+    content="Selected academic work by Vũ Thùy Linh."
+  >
+
+  <!-- PRIVACY / SEARCH -->
+  <meta
+    name="robots"
+    content="noindex, nofollow, noarchive, nosnippet, noimageindex"
+  >
+
+  <meta
+    name="googlebot"
+    content="noindex, nofollow, noarchive, nosnippet, noimageindex"
+  >
+
+  <meta
+    name="referrer"
+    content="no-referrer"
+  >
+
+  <meta
+    name="theme-color"
+    content="#100b22"
+  >
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Syne:wght@500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <link
+    rel="stylesheet"
+    href="styles.css"
+  >
+</head>
+
+
+<body>
+
+  <!-- BACKGROUND DECOR -->
+
+  <div class="galaxy" aria-hidden="true">
+    <div class="nebula nebula-pink"></div>
+    <div class="nebula nebula-purple"></div>
+    <div class="nebula nebula-mint"></div>
+
+    <div class="stars stars-one"></div>
+    <div class="stars stars-two"></div>
+
+    <div class="planet planet-one"></div>
+    <div class="planet planet-two"></div>
+  </div>
+
+
+  <main class="shell">
+
+    <!-- ===============================
+         HERO
+    ================================ -->
+
+    <section class="hero">
+
+      <div class="hero-top">
+
+        <div class="mini-brand">
+          <span class="brand-star">✦</span>
+          LINH / SELECTED WORK
+        </div>
+
+        <div class="year">
+          2026
+        </div>
+
+      </div>
+
+
+      <div class="hero-grid">
+
+        <div class="hero-copy">
+
+          <p class="eyebrow">
+            SLIDE GARAGE · ACADEMIC PROJECTS
+          </p>
+
+          <h1>
+            A little
+            <span class="gradient-word">
+              galaxy
+            </span>
+
+            of things
+            I made.
+          </h1>
+
+          <p class="hero-description">
+            Selected work across
+            <strong>consumer insight, campaign planning,
+            marketing strategy and social analysis.</strong>
+            Built through academic group projects.
+          </p>
+
+
+          <div class="hero-pills">
+
+            <span>
+              consumer insight
+            </span>
+
+            <span>
+              planning
+            </span>
+
+            <span>
+              campaign
+            </span>
+
+            <span>
+              social
+            </span>
+
+          </div>
+
+        </div>
+
+
+        <!-- DECORATIVE GALAXY CARD -->
+
+        <div class="hero-art">
+
+          <div class="orbit orbit-a"></div>
+          <div class="orbit orbit-b"></div>
+
+          <div class="moon-card">
+
+            <span class="moon-number">
+              04
+            </span>
+
+            <span class="moon-label">
+              selected
+              projects
+            </span>
+
+          </div>
+
+
+          <div class="floating-note note-one">
+            research
+            <span>→</span>
+            insight
+          </div>
+
+
+          <div class="floating-note note-two">
+            insight
+            <span>→</span>
+            direction
+          </div>
+
+
+          <div class="sparkle sparkle-one">
+            ✦
+          </div>
+
+          <div class="sparkle sparkle-two">
+            ✧
+          </div>
+
+          <div class="sparkle sparkle-three">
+            ✦
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ===============================
+         PROJECT INTRO
+    ================================ -->
+
+    <section class="section-title">
+
+      <div>
+
+        <span>
+          01
+        </span>
+
+        <h2>
+          Selected
+          <em>cases</em>
+        </h2>
+
+      </div>
+
+
+      <p>
+        Click a project to open its slide gallery.
+      </p>
+
+    </section>
+
+
+    <!-- JS RENDERS CARDS HERE -->
+
+    <section
+      class="project-grid"
+      id="projectGrid"
+      aria-label="Selected projects"
+    ></section>
+
+
+    <!-- ===============================
+         SMALL ENDING
+    ================================ -->
+
+    <section class="ending">
+
+      <div class="ending-star">
+        ✦
+      </div>
+
+      <p>
+        Academic group work · selected and curated
+        for portfolio presentation.
+      </p>
+
+      <span>
+        VŨ THÙY LINH
+      </span>
+
+    </section>
+
+  </main>
+
+
+  <!-- ===============================
+       PROJECT VIEWER
+  ================================ -->
+
+  <dialog
+    class="viewer"
+    id="viewer"
+  >
+
+    <div class="viewer-shell">
+
+      <header class="viewer-header">
+
+        <div>
+
+          <p
+            class="viewer-type"
+            id="viewerType"
+          ></p>
+
+          <h2
+            id="viewerTitle"
+          ></h2>
+
+          <p
+            class="viewer-description"
+            id="viewerDescription"
+          ></p>
+
+        </div>
+
+
+        <button
+          class="viewer-close"
+          id="viewerClose"
+          type="button"
+          aria-label="Close gallery"
+        >
+          ×
+        </button>
+
+      </header>
+
+
+      <div class="viewer-meta">
+
+        <div>
+
+          <span>
+            ROLE / FOCUS
+          </span>
+
+          <strong
+            id="viewerRole"
+          ></strong>
+
+        </div>
+
+
+        <div>
+
+          <span>
+            CONTEXT
+          </span>
+
+          <strong
+            id="viewerContext"
+          ></strong>
+
+        </div>
+
+      </div>
+
+
+      <!-- MAIN SLIDE -->
+
+      <section class="slide-stage">
+
+        <button
+          class="slide-nav slide-prev"
+          id="prevSlide"
+          type="button"
+          aria-label="Previous slide"
+        >
+          ←
+        </button>
+
+
+        <div class="slide-frame">
+
+          <img
+            id="mainSlide"
+            src=""
+            alt=""
+          >
+
+
+          <div
+            class="slide-error"
+            id="slideError"
+          >
+            <span>
+              ✦
+            </span>
+
+            <p>
+              Add your slide image
+              to the assets folder.
+            </p>
+          </div>
+
+        </div>
+
+
+        <button
+          class="slide-nav slide-next"
+          id="nextSlide"
+          type="button"
+          aria-label="Next slide"
+        >
+          →
+        </button>
+
+      </section>
+
+
+      <!-- COUNTER -->
+
+      <div class="slide-info">
+
+        <span
+          id="slideCaption"
+        ></span>
+
+        <span
+          id="slideCounter"
+        ></span>
+
+      </div>
+
+
+      <!-- THUMBNAILS -->
+
+      <div
+        class="thumbnail-strip"
+        id="thumbnailStrip"
+      ></div>
+
+
+      <p class="academic-label">
+        Academic group project · shown for portfolio purposes.
+      </p>
+
+    </div>
+
+  </dialog>
+
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
