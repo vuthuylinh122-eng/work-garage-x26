@@ -1,1320 +1,476 @@
-/* =========================================================
-   VŨ THÙY LINH — SELECTED WORK
-   FINAL PROJECT CONFIGURATION
-========================================================= */
 
-
-/* =========================================================
-   PROJECT DATA
-========================================================= */
+/* ========================================================
+   VŨ THÙY LINH — MASTER SELECTED WORK
+   6 academic group projects | PNG slide galleries
+   Keep existing styles.css unchanged.
+   To reorder cases: reorder the objects in PROJECTS.
+======================================================== */
 
 const PROJECTS = [
-
-  /* =======================================================
-     01 — CỎ MỀM HOMELAB
-  ======================================================= */
-
   {
     id: "comem",
-
     number: "01",
-
     title: "Cỏ Mềm HomeLab",
-
     type: "Marketing Strategy · IMC",
-
-    description:
-      "From target audience and consumer insight to brand positioning, communication direction and strategic recommendations.",
-
+    description: "Exploring audience insight, positioning and multichannel strategy for a Vietnamese natural skincare brand.",
     role: "Project Lead",
-
-    context:
-      "Marketing Fundamentals · Academic group project",
-
-    tags: [
-      "Consumer Insight",
-      "STP",
-      "Positioning",
-      "IMC"
-    ],
-
+    context: "Marketing Fundamentals · Academic group project",
+    tags: ["Consumer Insight", "Positioning", "IMC", "Strategy"],
     accent: "#ff9dcd",
-
-    accentSoft:
-      "rgba(255,157,205,.20)",
-
-
-    /* Homepage cover */
-
-    cover:
-      "assets/comem/1.png",
-
-
-    /* Selected proof slides */
-
+    accentSoft: "rgba(255,157,205,.20)",
+    cover: "assets/comem/1.png",
     slides: [
-
-      {
-        src:
-          "assets/comem/16.png",
-
-        caption:
-          "Target audience · Truth, Tension, Motivation & Insight"
-      },
-
-      {
-        src:
-          "assets/comem/17.png",
-
-        caption:
-          "Positioning map & brand direction"
-      },
-
-      {
-        src:
-          "assets/comem/25.png",
-
-        caption:
-          "Multichannel communication & storytelling"
-      },
-
-      {
-        src:
-          "assets/comem/26.png",
-
-        caption:
-          "KOL & influencer communication"
-      },
-
-      {
-        src:
-          "assets/comem/35.png",
-
-        caption:
-          "TOWS & strategic recommendations"
-      }
-
+      { src: "assets/comem/16.png", caption: "Target audience · Truth, Tension, Motivation & Insight" },
+      { src: "assets/comem/17.png", caption: "Positioning map & brand direction" },
+      { src: "assets/comem/25.png", caption: "Multichannel communication & storytelling" },
+      { src: "assets/comem/26.png", caption: "KOL & influencer communication" },
+      { src: "assets/comem/35.png", caption: "TOWS & strategic recommendations" }
     ]
-
   },
 
-
-  /* =======================================================
-     02 — GEN Z × CONCERT
-     CONSUMER BEHAVIOR
-  ======================================================= */
-
   {
-    id: "consumer",
-
+    id: "quant",
     number: "02",
-
-    title: "Gen Z × Concert",
-
-    type:
-      "Consumer Behavior · Insight",
-
-    description:
-      "Exploring how social influence, motivation, perception and attitude shape Gen Z's concert-ticket purchase behavior.",
-
-    role:
-      "Consumer Behavior & Insight Analysis",
-
-    context:
-      "Consumer Behavior · Academic group project",
-
-    tags: [
-      "Interview",
-      "Consumer Insight",
-      "Motivation",
-      "e-WOM"
-    ],
-
-    accent:
-      "#a9f0d3",
-
-    accentSoft:
-      "rgba(169,240,211,.18)",
-
-
-    /* Homepage cover */
-
-    cover:
-      "assets/consumer/1 (1).png",
-
-
-    /* Selected proof slides */
-
+    title: "Gen Z Concert · Quantitative Research",
+    type: "Market Research · Data Analysis",
+    description: "A 398-response survey exploring the drivers of concert-ticket purchase intention through quantitative research and statistical testing.",
+    role: "Research & One-way ANOVA Analysis",
+    context: "Marketing Research · Academic group project",
+    tags: ["398 Responses", "SPSS", "ANOVA", "Insights"],
+    accent: "#db9bff",
+    accentSoft: "rgba(219,155,255,.20)",
+    cover: "assets/quant/07.png",
     slides: [
-
-      {
-        src:
-          "assets/consumer/3.png",
-
-        caption:
-          "Qualitative research · 5 Gen Z respondents"
-      },
-
-      {
-        src:
-          "assets/consumer/8.png",
-
-        caption:
-          "Reference groups & e-WOM"
-      },
-
-      {
-        src:
-          "assets/consumer/21.png",
-
-        caption:
-          "Consumer needs & motivation"
-      },
-
-      {
-        src:
-          "assets/consumer/43.png",
-
-        caption:
-          "Concert positioning recommendation"
-      },
-
-      {
-        src:
-          "assets/consumer/44.png",
-
-        caption:
-          "Communication & experience recommendations"
-      }
-
+      { src: "assets/quant/08.png", caption: "Research methodology · Sampling & data processing" },
+      { src: "assets/quant/13.png", caption: "Survey findings · 398 respondents" },
+      { src: "assets/quant/15.png", caption: "One-way ANOVA · Differences by occupation" },
+      { src: "assets/quant/19.png", caption: "From findings to marketing implications" },
+      { src: "assets/quant/21.png", caption: "Recommendations · e-WOM & social influence" }
     ]
-
   },
-
-
-  /* =======================================================
-     03 — VINAMILK
-     FOR A HEALTHIER TOMORROW
-  ======================================================= */
-
-  {
-    id: "vinamilk",
-
-    number: "03",
-
-    title:
-      "For A Healthier Tomorrow",
-
-    type:
-      "Campaign Planning",
-
-    description:
-      "A six-month Vinamilk campaign structured around audience, objectives, key message, creative direction and channel planning.",
-
-    role:
-      "Campaign Planning & Audience Analysis",
-
-    context:
-      "Business Management · Academic group project",
-
-    tags: [
-      "Audience",
-      "Key Message",
-      "Creative",
-      "Media Plan"
-    ],
-
-    accent:
-      "#b8c6ff",
-
-    accentSoft:
-      "rgba(184,198,255,.18)",
-
-
-    /* =====================================================
-       HOMEPAGE COVER
-
-       16 (1).png
-       = Rebranding Initiative
-    ===================================================== */
-
-    cover:
-      "assets/vinamilk/16 (1).png",
-
-
-    /* =====================================================
-       SELECTED PROOF SLIDES
-    ===================================================== */
-
-    slides: [
-
-      /* 15 = SWOT */
-
-      {
-        src:
-          "assets/vinamilk/15.png",
-
-        caption:
-          "SWOT analysis & brand context"
-      },
-
-
-      /* 21 = Campaign Objectives */
-
-      {
-        src:
-          "assets/vinamilk/21 (1).png",
-
-        caption:
-          "Campaign objectives"
-      },
-
-
-      /* 22 = Target Audience */
-
-      {
-        src:
-          "assets/vinamilk/22.png",
-
-        caption:
-          "Target audience analysis"
-      },
-
-
-      /* 23 = Key Message / Creative */
-
-      {
-        src:
-          "assets/vinamilk/23 (1).png",
-
-        caption:
-          "Key message & creative strategy"
-      },
-
-
-      /* 24 = Media Plan */
-
-      {
-        src:
-          "assets/vinamilk/24.png",
-
-        caption:
-          "Media channels, budget & timeline"
-      }
-
-    ]
-
-  },
-
-
-  /* =======================================================
-     04 — SOCIAL MEDIA
-     PERFORMANCE & STRATEGY
-  ======================================================= */
 
   {
     id: "social",
-
-    number: "04",
-
-    title:
-      "Social Media Performance & Strategy",
-
-    type:
-      "Social Analytics · Strategy",
-
-    description:
-      "Facebook and Instagram performance translated into content and channel recommendations through social analytics and the RACE framework.",
-
-    role:
-      "Social Media Analytics & Strategy",
-
-    context:
-      "Web & Social Media Analysis · Academic group project",
-
-    tags: [
-      "Meta",
-      "Brand24",
-      "RACE",
-      "Content"
-    ],
-
-    accent:
-      "#d3b6ff",
-
-    accentSoft:
-      "rgba(211,182,255,.20)",
-
-
-    /* Homepage cover */
-
-    cover:
-      "assets/social/7.png",
-
-
-    /* Selected proof slides */
-
+    number: "03",
+    title: "Social Media Performance & Strategy",
+    type: "Social Analytics · Strategy",
+    description: "Facebook and Instagram performance analysis, paid-content evaluation and social listening translated into RACE recommendations.",
+    role: "Social Media Analytics & Strategy",
+    context: "Web & Social Media Analysis · Academic group project",
+    tags: ["Meta", "Brand24", "CTR", "RACE"],
+    accent: "#d3b6ff",
+    accentSoft: "rgba(211,182,255,.20)",
+    cover: "assets/social/7.png",
     slides: [
-
-      {
-        src:
-          "assets/social/8 (1).png",
-
-        caption:
-          "Engagement & content performance"
-      },
-
-      {
-        src:
-          "assets/social/19.png",
-
-        caption:
-          "Paid content & CTR analysis"
-      },
-
-      {
-        src:
-          "assets/social/23.png",
-
-        caption:
-          "Brand24 social listening"
-      },
-
-      {
-        src:
-          "assets/social/27.png",
-
-        caption:
-          "RACE strategic recommendations"
-      }
-
+      { src: "assets/social/8 (1).png", caption: "Engagement & content performance" },
+      { src: "assets/social/19.png", caption: "Paid content & CTR analysis" },
+      { src: "assets/social/23.png", caption: "Brand24 · Social listening snapshot" },
+      { src: "assets/social/27.png", caption: "RACE strategic recommendations" }
     ]
+  },
 
+  {
+    id: "consumer",
+    number: "04",
+    title: "Gen Z × Concert",
+    type: "Consumer Behavior · Qualitative Research",
+    description: "A qualitative exploration of social influence, e-WOM, motivation and experience in Gen Z's concert-ticket choices.",
+    role: "Consumer Behavior & Insight Analysis",
+    context: "Consumer Behavior · Academic group project",
+    tags: ["Interviews", "e-WOM", "Motivation", "Insight"],
+    accent: "#a9f0d3",
+    accentSoft: "rgba(169,240,211,.18)",
+    cover: "assets/consumer/1 (1).png",
+    slides: [
+      { src: "assets/consumer/3.png", caption: "Qualitative research · 5 Gen Z respondents" },
+      { src: "assets/consumer/8.png", caption: "Reference groups & e-WOM" },
+      { src: "assets/consumer/21.png", caption: "Consumer needs & motivation" },
+      { src: "assets/consumer/43.png", caption: "Concert positioning recommendation" },
+      { src: "assets/consumer/44.png", caption: "Communication & experience recommendations" }
+    ]
+  },
+
+  {
+    id: "vinamilk",
+    number: "05",
+    title: "For A Healthier Tomorrow",
+    type: "Campaign Planning",
+    description: "A six-month Vinamilk campaign proposal, from audience and objectives to creative direction and channel planning.",
+    role: "Campaign Planning & Audience Analysis",
+    context: "Business Management · Academic group project",
+    tags: ["Audience", "Message", "Creative", "Media Plan"],
+    accent: "#b8c6ff",
+    accentSoft: "rgba(184,198,255,.18)",
+    cover: "assets/vinamilk/16 (1).png",
+    slides: [
+      { src: "assets/vinamilk/15.png", caption: "SWOT analysis & brand context" },
+      { src: "assets/vinamilk/21 (1).png", caption: "Campaign objectives" },
+      { src: "assets/vinamilk/22.png", caption: "Target audience analysis" },
+      { src: "assets/vinamilk/23 (1).png", caption: "Key message & creative strategy" },
+      { src: "assets/vinamilk/24.png", caption: "Media channels, budget & timeline" }
+    ]
+  },
+
+  {
+    id: "cerave",
+    number: "06",
+    title: "CeraVe · Market & PR Review",
+    type: "Industry Research · Public Relations",
+    description: "A group review of dermocosmetics market trends, competitor positioning, priority publics and PR improvement opportunities.",
+    role: "Market & PR Analysis · Group Work",
+    context: "Principles of Public Relations · Academic group project",
+    tags: ["Market Trends", "Competitors", "Audiences", "PR"],
+    accent: "#9bcfff",
+    accentSoft: "rgba(155,207,255,.18)",
+    cover: "assets/cerave/01.png",
+    slides: [
+      { src: "assets/cerave/04.png", caption: "Dermocosmetics market & category trends" },
+      { src: "assets/cerave/05.png", caption: "Competitor positioning · CeraVe & alternatives" },
+      { src: "assets/cerave/07 (1).png", caption: "Audience analysis · Consumers & dermatologists" },
+      { src: "assets/cerave/25.png", caption: "PR recommendations · Community engagement" }
+    ]
   }
-
 ];
 
 
-
-/* =========================================================
+/* ========================================================
    DOM ELEMENTS
-========================================================= */
+======================================================== */
 
-const projectGrid =
-  document.getElementById(
-    "projectGrid"
-  );
+const $ = id => document.getElementById(id);
 
+const projectGrid = $("projectGrid");
+const viewer = $("viewer");
+const viewerClose = $("viewerClose");
+const viewerTitle = $("viewerTitle");
+const viewerType = $("viewerType");
+const viewerDescription = $("viewerDescription");
+const viewerRole = $("viewerRole");
+const viewerContext = $("viewerContext");
+const mainSlide = $("mainSlide");
+const slideError = $("slideError");
+const slideCaption = $("slideCaption");
+const slideCounter = $("slideCounter");
+const thumbnailStrip = $("thumbnailStrip");
+const previousButton = $("prevSlide");
+const nextButton = $("nextSlide");
 
-const viewer =
-  document.getElementById(
-    "viewer"
-  );
-
-
-const viewerClose =
-  document.getElementById(
-    "viewerClose"
-  );
-
-
-const viewerTitle =
-  document.getElementById(
-    "viewerTitle"
-  );
-
-
-const viewerType =
-  document.getElementById(
-    "viewerType"
-  );
+let activeProject = null;
+let activeSlide = 0;
+let lastCard = null;
 
 
-const viewerDescription =
-  document.getElementById(
-    "viewerDescription"
-  );
-
-
-const viewerRole =
-  document.getElementById(
-    "viewerRole"
-  );
-
-
-const viewerContext =
-  document.getElementById(
-    "viewerContext"
-  );
-
-
-const mainSlide =
-  document.getElementById(
-    "mainSlide"
-  );
-
-
-const slideError =
-  document.getElementById(
-    "slideError"
-  );
-
-
-const slideCaption =
-  document.getElementById(
-    "slideCaption"
-  );
-
-
-const slideCounter =
-  document.getElementById(
-    "slideCounter"
-  );
-
-
-const thumbnailStrip =
-  document.getElementById(
-    "thumbnailStrip"
-  );
-
-
-const previousButton =
-  document.getElementById(
-    "prevSlide"
-  );
-
-
-const nextButton =
-  document.getElementById(
-    "nextSlide"
-  );
-
-
-
-/* =========================================================
-   CURRENT STATE
-========================================================= */
-
-let activeProject =
-  null;
-
-
-let activeSlide =
-  0;
-
-
-
-/* =========================================================
+/* ========================================================
    RENDER PROJECT CARDS
-========================================================= */
+======================================================== */
 
 function renderProjects() {
+  projectGrid.replaceChildren();
 
-  projectGrid.innerHTML =
-    "";
+  PROJECTS.forEach(project => {
+    const card = document.createElement("article");
 
+    card.className = "project-card";
+    card.tabIndex = 0;
 
-  PROJECTS.forEach(
-    project => {
+    card.setAttribute("role", "button");
+    card.setAttribute(
+      "aria-label",
+      `Open ${project.title} gallery`
+    );
 
-      const card =
-        document.createElement(
-          "article"
-        );
+    card.style.setProperty("--accent", project.accent);
+    card.style.setProperty("--accent-soft", project.accentSoft);
 
+    card.innerHTML = `
+      <div class="card-cover">
+        <div class="cover-placeholder">
+          <span class="cover-number">${project.number}</span>
+          <strong>${project.title}</strong>
+        </div>
+        <img
+          src="${project.cover}"
+          alt="${project.title} project cover"
+          loading="lazy"
+        >
+      </div>
 
-      card.className =
-        "project-card";
+      <div class="project-info">
+        <span class="project-kicker">${project.type}</span>
 
+        <h3>${project.title}</h3>
 
-      card.tabIndex =
-        0;
+        <p>${project.description}</p>
 
-
-      card.style.setProperty(
-        "--accent",
-        project.accent
-      );
-
-
-      card.style.setProperty(
-        "--accent-soft",
-        project.accentSoft
-      );
-
-
-      card.innerHTML = `
-
-        <div class="card-cover">
-
-          <div class="cover-placeholder">
-
-            <span class="cover-number">
-              ${project.number}
-            </span>
-
-            <strong>
-              ${project.title}
-            </strong>
-
+        <div class="card-bottom">
+          <div class="card-tags">
+            ${project.tags
+              .map(tag => `<span>${tag}</span>`)
+              .join("")}
           </div>
 
-
-          <img
-            src="${project.cover}"
-            alt="${project.title} project cover"
-          >
-
+          <span
+            class="open-symbol"
+            aria-hidden="true"
+          >↗</span>
         </div>
+      </div>
+    `;
 
+    const coverImage = card.querySelector(
+      ".card-cover img"
+    );
 
-        <div class="project-info">
+    coverImage.addEventListener("error", () => {
+      coverImage.hidden = true;
+    });
 
-          <span class="project-kicker">
-            ${project.type}
-          </span>
+    card.addEventListener("click", () => {
+      openProject(project, card);
+    });
 
+    card.addEventListener("keydown", e => {
+      if (e.key === "Enter" || e.key === " ") {
+        e.preventDefault();
+        openProject(project, card);
+      }
+    });
 
-          <h3>
-            ${project.title}
-          </h3>
+    addTiltEffect(card);
 
+    projectGrid.append(card);
+  });
 
-          <p>
-            ${project.description}
-          </p>
+  const count = $("projectCount");
 
-
-          <div class="card-bottom">
-
-            <div class="card-tags">
-
-              ${project.tags
-                .map(
-                  tag =>
-                    `<span>${tag}</span>`
-                )
-                .join("")}
-
-            </div>
-
-
-            <span class="open-symbol">
-              ↗
-            </span>
-
-          </div>
-
-        </div>
-
-      `;
-
-
-
-      /* =====================================================
-         COVER FALLBACK
-
-         Nếu sai tên ảnh hoặc chưa có file ảnh,
-         website tự ẩn broken image.
-      ===================================================== */
-
-      const coverImage =
-        card.querySelector(
-          ".card-cover img"
-        );
-
-
-      coverImage.addEventListener(
-        "error",
-        () => {
-
-          coverImage.style.display =
-            "none";
-
-        }
-      );
-
-
-
-      /* =====================================================
-         OPEN PROJECT
-      ===================================================== */
-
-      card.addEventListener(
-        "click",
-        () => {
-
-          openProject(
-            project
-          );
-
-        }
-      );
-
-
-      card.addEventListener(
-        "keydown",
-        event => {
-
-          if (
-            event.key === "Enter"
-
-            ||
-
-            event.key === " "
-          ) {
-
-            event.preventDefault();
-
-
-            openProject(
-              project
-            );
-
-          }
-
-        }
-      );
-
-
-      addTiltEffect(
-        card
-      );
-
-
-      projectGrid.appendChild(
-        card
-      );
-
-    }
-  );
-
+  if (count) {
+    count.textContent = String(PROJECTS.length).padStart(2, "0");
+  }
 }
 
 
-
-/* =========================================================
+/* ========================================================
    SUBTLE CARD TILT
-========================================================= */
+======================================================== */
 
-function addTiltEffect(
-  card
-) {
-
-  const supportsHover =
-    window.matchMedia(
-      "(hover: hover) and (pointer: fine)"
-    ).matches;
-
-
-  const reducedMotion =
-    window.matchMedia(
-      "(prefers-reduced-motion: reduce)"
-    ).matches;
-
-
+function addTiltEffect(card) {
   if (
-    !supportsHover
-
-    ||
-
-    reducedMotion
+    !matchMedia("(hover: hover) and (pointer: fine)").matches ||
+    matchMedia("(prefers-reduced-motion: reduce)").matches
   ) {
-
     return;
-
   }
 
+  card.addEventListener("mousemove", e => {
+    const rect = card.getBoundingClientRect();
 
-  card.addEventListener(
-    "mousemove",
-    event => {
+    const rotateY =
+      ((e.clientX - rect.left) / rect.width - 0.5) * 4.4;
 
-      const rect =
-        card.getBoundingClientRect();
+    const rotateX =
+      (0.5 - (e.clientY - rect.top) / rect.height) * 4.4;
 
+    card.style.setProperty("--rx", `${rotateX}deg`);
+    card.style.setProperty("--ry", `${rotateY}deg`);
+  });
 
-      const x =
-        event.clientX
-        -
-        rect.left;
-
-
-      const y =
-        event.clientY
-        -
-        rect.top;
-
-
-      const centerX =
-        rect.width
-        /
-        2;
-
-
-      const centerY =
-        rect.height
-        /
-        2;
-
-
-      const rotateY =
-        (
-          x
-          -
-          centerX
-        )
-        /
-        centerX
-        *
-        2.2;
-
-
-      const rotateX =
-        -
-        (
-          y
-          -
-          centerY
-        )
-        /
-        centerY
-        *
-        2.2;
-
-
-      card.style.setProperty(
-        "--rx",
-        `${rotateX}deg`
-      );
-
-
-      card.style.setProperty(
-        "--ry",
-        `${rotateY}deg`
-      );
-
-    }
-  );
-
-
-  card.addEventListener(
-    "mouseleave",
-    () => {
-
-      card.style.setProperty(
-        "--rx",
-        "0deg"
-      );
-
-
-      card.style.setProperty(
-        "--ry",
-        "0deg"
-      );
-
-    }
-  );
-
+  card.addEventListener("mouseleave", () => {
+    card.style.setProperty("--rx", "0deg");
+    card.style.setProperty("--ry", "0deg");
+  });
 }
 
 
+/* ========================================================
+   OPEN PROJECT GALLERY
+======================================================== */
 
-/* =========================================================
-   OPEN PROJECT VIEWER
-========================================================= */
-
-function openProject(
-  project
-) {
-
-  activeProject =
-    project;
-
-
-  activeSlide =
-    0;
-
+function openProject(project, sourceCard) {
+  activeProject = project;
+  activeSlide = 0;
+  lastCard = sourceCard;
 
   viewer.style.setProperty(
     "--viewer-accent",
     project.accent
   );
 
-
-  viewerTitle.textContent =
-    project.title;
-
-
-  viewerType.textContent =
-    project.type;
-
-
-  viewerDescription.textContent =
-    project.description;
-
-
-  viewerRole.textContent =
-    project.role;
-
-
-  viewerContext.textContent =
-    project.context;
-
+  viewerTitle.textContent = project.title;
+  viewerType.textContent = project.type;
+  viewerDescription.textContent = project.description;
+  viewerRole.textContent = project.role;
+  viewerContext.textContent = project.context;
 
   renderThumbnails();
 
-
-  showSlide(
-    0
-  );
-
-
   viewer.showModal();
 
+  document.body.classList.add("dialog-open");
 
-  document.body.classList.add(
-    "dialog-open"
-  );
+  showSlide(0);
 
+  viewerClose.focus();
 }
 
 
+/* ========================================================
+   DISPLAY CURRENT SLIDE
+======================================================== */
 
-/* =========================================================
-   SHOW CURRENT SLIDE
-========================================================= */
-
-function showSlide(
-  index
-) {
-
+function showSlide(index) {
   if (
-    !activeProject
+    !activeProject ||
+    !activeProject.slides.length
   ) {
-
     return;
-
   }
 
+  const total = activeProject.slides.length;
 
-  const total =
-    activeProject.slides.length;
+  activeSlide = (index + total) % total;
 
+  const slide = activeProject.slides[activeSlide];
 
-  /*
-    Loop navigation:
-    last → first
-    first → last
-  */
-
-  activeSlide =
-    (
-      index
-      +
-      total
-    )
-    %
-    total;
-
-
-  const slide =
-    activeProject.slides[
-      activeSlide
-    ];
-
-
-  /* reset error */
-
-  slideError.style.display =
-    "none";
-
-
-  mainSlide.style.display =
-    "block";
-
-
-  /* load slide */
-
-  mainSlide.src =
-    slide.src;
-
+  slideError.style.display = "none";
+  mainSlide.style.display = "block";
 
   mainSlide.alt =
-    `${activeProject.title} — ${slide.caption}`;
+    `${activeProject.title}: ${slide.caption}`;
 
+  mainSlide.src = slide.src;
 
-  /* caption */
-
-  slideCaption.textContent =
-    slide.caption;
-
-
-  /* counter */
+  slideCaption.textContent = slide.caption;
 
   slideCounter.textContent =
-    `${String(
-      activeSlide
-      +
-      1
-    ).padStart(
-      2,
-      "0"
-    )} / ${String(
-      total
-    ).padStart(
-      2,
-      "0"
-    )}`;
-
+    `${String(activeSlide + 1).padStart(2, "0")} / ${String(total).padStart(2, "0")}`;
 
   updateThumbnailState();
-
 }
 
 
-
-/* =========================================================
+/* ========================================================
    MAIN IMAGE ERROR
-========================================================= */
+======================================================== */
 
-mainSlide.addEventListener(
-  "error",
-  () => {
-
-    mainSlide.style.display =
-      "none";
+mainSlide.addEventListener("error", () => {
+  mainSlide.style.display = "none";
+  slideError.style.display = "grid";
+});
 
 
-    slideError.style.display =
-      "grid";
-
-  }
-);
-
-
-
-/* =========================================================
-   CREATE THUMBNAILS
-========================================================= */
+/* ========================================================
+   RENDER SLIDE THUMBNAILS
+======================================================== */
 
 function renderThumbnails() {
+  thumbnailStrip.replaceChildren();
 
-  thumbnailStrip.innerHTML =
-    "";
+  activeProject.slides.forEach((slide, index) => {
+    const button = document.createElement("button");
 
+    button.type = "button";
+    button.className = "thumbnail";
 
-  activeProject.slides.forEach(
-    (
-      slide,
-      index
-    ) => {
+    button.setAttribute(
+      "aria-label",
+      `Open slide ${index + 1}: ${slide.caption}`
+    );
 
-      const button =
-        document.createElement(
-          "button"
-        );
+    const image = document.createElement("img");
 
+    image.src = slide.src;
+    image.alt = slide.caption;
+    image.loading = "lazy";
 
-      button.type =
-        "button";
+    image.addEventListener("error", () => {
+      button.hidden = true;
+    });
 
+    button.append(image);
 
-      button.className =
-        "thumbnail";
+    button.addEventListener("click", () => {
+      showSlide(index);
+    });
 
-
-      button.setAttribute(
-        "aria-label",
-        `Open slide ${index + 1}: ${slide.caption}`
-      );
-
-
-      button.innerHTML = `
-
-        <img
-          src="${slide.src}"
-          alt="${slide.caption}"
-        >
-
-      `;
-
-
-
-      /* click thumbnail */
-
-      button.addEventListener(
-        "click",
-        () => {
-
-          showSlide(
-            index
-          );
-
-        }
-      );
-
-
-
-      /* hide thumbnail if image is missing */
-
-      const image =
-        button.querySelector(
-          "img"
-        );
-
-
-      image.addEventListener(
-        "error",
-        () => {
-
-          button.style.display =
-            "none";
-
-        }
-      );
-
-
-      thumbnailStrip.appendChild(
-        button
-      );
-
-    }
-  );
-
+    thumbnailStrip.append(button);
+  });
 }
 
 
-
-/* =========================================================
-   ACTIVE THUMBNAIL
-========================================================= */
+/* ========================================================
+   UPDATE ACTIVE THUMBNAIL
+======================================================== */
 
 function updateThumbnailState() {
+  const thumbnails = thumbnailStrip.querySelectorAll(
+    ".thumbnail"
+  );
 
-  const thumbnails =
-    thumbnailStrip.querySelectorAll(
-      ".thumbnail"
+  thumbnails.forEach((thumbnail, index) => {
+    thumbnail.classList.toggle(
+      "active",
+      index === activeSlide
     );
 
+    thumbnail.setAttribute(
+      "aria-pressed",
+      String(index === activeSlide)
+    );
+  });
 
-  thumbnails.forEach(
-    (
-      thumbnail,
-      index
-    ) => {
-
-      thumbnail.classList.toggle(
-        "active",
-        index ===
-        activeSlide
-      );
-
-    }
-  );
-
-
-  /*
-    Nếu project có nhiều slide,
-    thumbnail đang xem sẽ tự scroll
-    vào giữa.
-  */
-
-  thumbnails[
-    activeSlide
-  ]?.scrollIntoView(
-    {
-
-      behavior:
-        "smooth",
-
-      inline:
-        "center",
-
-      block:
-        "nearest"
-
-    }
-  );
-
+  thumbnails[activeSlide]?.scrollIntoView({
+    behavior: "smooth",
+    inline: "center",
+    block: "nearest"
+  });
 }
 
 
+/* ========================================================
+   GALLERY NAVIGATION
+======================================================== */
 
-/* =========================================================
-   PREVIOUS SLIDE
-========================================================= */
+previousButton.addEventListener("click", () => {
+  showSlide(activeSlide - 1);
+});
 
-previousButton.addEventListener(
-  "click",
-  () => {
+nextButton.addEventListener("click", () => {
+  showSlide(activeSlide + 1);
+});
 
-    showSlide(
-      activeSlide
-      -
-      1
-    );
+viewerClose.addEventListener("click", () => {
+  viewer.close();
+});
 
+viewer.addEventListener("close", () => {
+  document.body.classList.remove("dialog-open");
+
+  lastCard?.focus();
+});
+
+document.addEventListener("keydown", e => {
+  if (!viewer.open) return;
+
+  if (e.key === "ArrowLeft") {
+    e.preventDefault();
+    showSlide(activeSlide - 1);
   }
-);
 
-
-
-/* =========================================================
-   NEXT SLIDE
-========================================================= */
-
-nextButton.addEventListener(
-  "click",
-  () => {
-
-    showSlide(
-      activeSlide
-      +
-      1
-    );
-
+  if (e.key === "ArrowRight") {
+    e.preventDefault();
+    showSlide(activeSlide + 1);
   }
-);
+});
 
-
-
-/* =========================================================
-   KEYBOARD NAVIGATION
-
-   ArrowLeft  = previous
-   ArrowRight = next
-========================================================= */
-
-document.addEventListener(
-  "keydown",
-  event => {
-
-    if (
-      !viewer.open
-    ) {
-
-      return;
-
-    }
-
-
-    if (
-      event.key ===
-      "ArrowLeft"
-    ) {
-
-      showSlide(
-        activeSlide
-        -
-        1
-      );
-
-    }
-
-
-    if (
-      event.key ===
-      "ArrowRight"
-    ) {
-
-      showSlide(
-        activeSlide
-        +
-        1
-      );
-
-    }
-
-  }
-);
-
-
-
-/* =========================================================
-   CLOSE VIEWER
-========================================================= */
-
-viewerClose.addEventListener(
-  "click",
-  () => {
-
+viewer.addEventListener("click", e => {
+  if (e.target === viewer) {
     viewer.close();
-
   }
-);
+});
 
 
-
-/* =========================================================
-   RESTORE PAGE SCROLL AFTER CLOSE
-========================================================= */
-
-viewer.addEventListener(
-  "close",
-  () => {
-
-    document.body.classList.remove(
-      "dialog-open"
-    );
-
-  }
-);
-
-
-
-/* =========================================================
-   CLICK OUTSIDE MODAL TO CLOSE
-========================================================= */
-
-viewer.addEventListener(
-  "click",
-  event => {
-
-    const rect =
-      viewer.getBoundingClientRect();
-
-
-    const outside =
-
-      event.clientX
-      <
-      rect.left
-
-      ||
-
-      event.clientX
-      >
-      rect.right
-
-      ||
-
-      event.clientY
-      <
-      rect.top
-
-      ||
-
-      event.clientY
-      >
-      rect.bottom;
-
-
-    if (
-      outside
-    ) {
-
-      viewer.close();
-
-    }
-
-  }
-);
-
-
-
-/* =========================================================
-   INITIALIZE WEBSITE
-========================================================= */
+/* ========================================================
+   INITIALIZE MASTER PORTFOLIO
+======================================================== */
 
 renderProjects();
